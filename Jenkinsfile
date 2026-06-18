@@ -4,17 +4,6 @@ pipeline {
     tools {
         maven 'Maven'
     }
-
-    stages {
-        stage('Checkout') {
-            steps {
-                git 'pipeline' {
-    agent any
-
-    tools {
-        maven 'Maven'
-    }
-
     stages {
         stage('Checkout') {
             steps {
