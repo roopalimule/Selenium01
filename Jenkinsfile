@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git ''pipeline {
+                git 'pipeline' {
     agent any
 
     tools {
@@ -18,7 +18,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git ''https://github.com/roopalimule/Selenium01.git'
+                git 'https://github.com/roopalimule/Selenium01.git'
             }
         }
 
